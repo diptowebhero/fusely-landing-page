@@ -10,7 +10,12 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Playfair Display", serif;
 }
 .container {
@@ -174,7 +179,8 @@ h1 {
   line-height: 64px;
   letter-spacing: -1px;
 }
-.pricing-container {
+.pricing-container,
+.blog-card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
@@ -225,6 +231,38 @@ h1 {
 .card-paragraph p {
   padding: 5px;
 }
+/* pricing css end */
+.blog-title {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.blog-title h2 {
+  font-size: 50px;
+  line-height: 45px;
+  font-weight: 700;
+  color: rgba(47, 46, 65, 1);
+}
+.blog-card {
+  max-width: 363px;
+  height: 421px;
+  margin-top: 40px;
+}
+.blog-card img{
+  width: 100%;
+}
+.card-body {
+  padding: 10px 0px;
+}
+.card-body h4{
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 29px;
+}
+.card-body p{
+  padding: 10px 0px;
+}
+/* blog css end */
 /* brand css end */
 @media (max-width: 940px) {
   .toggle-menu-btn {
@@ -276,7 +314,7 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 20px;
   }
-  .details-container {
+  .details-container,.blog-card-container {
     grid-template-columns: 1fr;
   }
   .details-right h1 {
@@ -297,5 +335,24 @@ h1 {
     width: 100%;
     text-align: center;
     margin: 0 auto;
+  }
+  .blog-title h2{
+    font-size: 29px;
+  }
+  .btn-main{
+    padding:5px 10px
+  }
+  .section-title h1 {
+    font-size: 10px;
+    line-height: 35px;
+}
+}
+@media(max-width:320px){
+  .blog-title h2{
+    font-size: 23px;
+    line-height: 26px;
+  }
+  .btn-main{
+    padding:5px 10px
   }
 }
