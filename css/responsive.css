@@ -1,0 +1,122 @@
+@media (max-width: 940px) {
+    .toggle-menu-btn {
+      display: block;
+    }
+    .navigation {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      transform: translateY(-500px);
+      transition: 0.3s;
+      width: 100%;
+      background: #9e99ff;
+    }
+    .navigation li {
+      display: block;
+      padding: 20px 0px 20px 50px;
+      color: white !important;
+    }
+    .navigation a {
+      color: white !important;
+    }
+    .btn-container {
+      display: none;
+    }
+    #toggle-menu:checked ~ .navigation {
+      transform: translateY(0px);
+    }
+    .banner,
+    .pricing-container {
+      grid-template-columns: 1fr;
+    }
+    .banner-right {
+      margin-top: 30px;
+    }
+    .details-right p {
+      line-height: 26px;
+      font-size: 17px;
+      text-align: justify;
+      margin: 0;
+    }
+  }
+  @media (max-width: 700px) {
+    .banner-left h1 {
+      font-size: 46px;
+      line-height: 50px;
+    }
+    .brand-container {
+      grid-template-columns: repeat(3, 1fr);
+      grid-row-gap: 20px;
+    }
+    .details-container,
+    .blog-card-container {
+      grid-template-columns: 1fr;
+    }
+    .details-right h1 {
+      font-size: 30px;
+      line-height: 30px;
+    }
+    .team {
+      display: flex !important;
+      flex-direction: column-reverse;
+    }
+    .details-right p {
+      line-height: 26px;
+      font-size: 17px;
+      text-align: justify;
+      margin: 0;
+    }
+    .brand-item img {
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .blog-title h2 {
+      font-size: 29px;
+    }
+    .btn-main {
+      padding: 5px 10px;
+    }
+    .section-title h1 {
+      font-size: 10px;
+      line-height: 35px;
+    }
+    .support,.get{
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    .head-box-text h1{
+      font-size:27px ;
+    }
+    .head-box {
+      position: relative;
+      background: rgba(47, 46, 65, 1);
+      color: #fff;
+      top: -233px;
+      padding: 5rem 3rem;
+      margin-left: -56px;
+      width: 100%;
+    }
+  }
+  @media (max-width: 320px) {
+    .blog-title h2 {
+      font-size: 23px;
+      line-height: 26px;
+    }
+    .head-box {
+      position: relative;
+      background: rgba(47, 46, 65, 1);
+      color: #fff;
+      top: -233px;
+      padding: 5rem 3rem;
+      margin-left: -56px;
+      width: 100%;
+    }
+    .head-box-text h1{
+      font-size:21px ;
+    }
+    .support{
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+  }
