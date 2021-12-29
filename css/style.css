@@ -317,5 +317,10 @@ button{
   border-radius: 5px;
   color:#9893A3;
   font-weight: 900;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.fab:hover{
+  transform:translateY(-3px)
 }
 
