@@ -270,7 +270,7 @@ button{
 .footer {
   background: rgba(236, 235, 255, 0.6);
   position: relative;
-  padding: 7rem 0;
+  padding: 2rem 0;
   color: #000;
   margin-top: 200px;
 }
@@ -278,7 +278,7 @@ button{
   position: relative;
   background: rgba(47, 46, 65, 1);
   color: #fff;
-  top: -233px;
+  top: -142px;
   padding: 4rem 7rem;
 }
 .head-box-text {
@@ -288,7 +288,7 @@ button{
 }
 .row {
   position: relative;
-  margin-top: -140px;
+  margin-top: -102px;
   margin-bottom: 0;
   display: flex;
   flex-wrap: wrap;
@@ -322,5 +322,13 @@ button{
 }
 .fab:hover{
   transform:translateY(-3px)
+}
+.copyright{
+  text-align: center;
+  margin-top: 31px;
+}
+.copyright p{
+  font-weight:500;
+  color: #2f2e41;
 }
 
